@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Overpass"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Rating state start -->
+    <div class="container">
+      <form action="./results.html" method="get" class="form">
+        <div class="form-elements">
+          <span class="dot"
+            ><img src="./images/icon-star.svg" alt="star-icon"
+          /></span>
+          <h3>How did we do?</h3>
+          <p>
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+          <div class="rating-elements">
+            <span>
+              <input
+                type="radio"
+                value="1"
+                name="rating"
+                id="rating-1"
+                required="required"
+              />
+              <label class="dot" for="rating-1"> 1 </label>
+            </span>
+            <span>
+              <input type="radio" value="2" name="rating" id="rating-2" />
+              <label class="dot" for="rating-2"> 2</label>
+            </span>
+            <span>
+              <input type="radio" value="3" name="rating" id="rating-3" />
+              <label class="dot" for="rating-3"> 3</label>
+            </span>
+            <span>
+              <input type="radio" value="4" name="rating" id="rating-4" />
+              <label class="dot" for="rating-4"> 4</label>
+            </span>
+            <span>
+              <input type="radio" value="5" name="rating" id="rating-5" />
+              <label class="dot" for="rating-5"> 5</label>
+            </span>
+          </div>
+          <input type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+
+    <!-- Rating state end -->
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Kabir</a>.
+    </div>
+  </body>
+</html>
