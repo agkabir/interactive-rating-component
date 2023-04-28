@@ -31,11 +31,11 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Screenshot_1.png) [](./images/Screenshot_2.png)
+![](./images/Screenshot_first.png) [](./images/Screenshot_second.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/agkabir/interactive-rating-component)
+- Solution URL: [Github](https://github.com/agkabir/interactive-rating-component)
 ## My process
 
 ### Built with
