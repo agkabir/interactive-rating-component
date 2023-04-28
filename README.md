@@ -46,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-- Customize radio buttion 
+- Customizing radio buttion group to make rating widget 
 - CSS flex property and display item center
 - A bit of vanilla javascript 
 
